@@ -123,7 +123,7 @@ public class ColorPickerPreference extends Preference implements
             mShowLedPreview = attrs.getAttributeBooleanValue(null, "ledPreview", false);
             mIsLedColorPicker = attrs.getAttributeBooleanValue(null, "isledPicker", false);
             mShowReset = attrs.getAttributeBooleanValue(SETTINGS_NS, "showReset", false);
-            mShowPreview = attrs.getAttributeBooleanValue(SETTINGS_NS, "showPreview", false);
+            mShowPreview = attrs.getAttributeBooleanValue(SETTINGS_NS, "showPreview", true);
             mDividerAbove = attrs.getAttributeBooleanValue(SETTINGS_NS, "dividerAbove", false);
             mDividerBelow = attrs.getAttributeBooleanValue(SETTINGS_NS, "dividerBelow", false);
         }

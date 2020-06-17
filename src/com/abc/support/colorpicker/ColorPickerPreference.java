@@ -201,7 +201,6 @@ public class ColorPickerPreference extends Preference implements
         if (!mShowPreview || mView == null || mWidgetFrameView == null)
             return;
 
-        ImageView iView = new ImageView(getContext());
         // remove already create preview image
         int count = mWidgetFrameView.getChildCount();
         if (count > 0) {
@@ -210,6 +209,8 @@ public class ColorPickerPreference extends Preference implements
                 mWidgetFrameView.removeView(preview);
             }
         }
+        if (!isEnabled()) return;
+        ImageView iView = new ImageView(getContext());
         mWidgetFrameView.addView(iView);
         final int size = (int) getContext().getResources().getDimension(R.dimen.oval_notification_size);
         final int imageColor = ((mCurrentValue & 0xF0F0F0) == 0xF0F0F0) ?
@@ -534,5 +535,11 @@ public class ColorPickerPreference extends Preference implements
         shape.setIntrinsicWidth(size);
         shape.getPaint().setColor(color);
         return shape;
+    }
+
+    @Override
+    public void setEnabled (boolean enabled) {
+        super.setEnabled(enabled);
+        setPreviewColor();
     }
 }

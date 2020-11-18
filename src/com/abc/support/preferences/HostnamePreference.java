@@ -66,8 +66,8 @@ public class HostnamePreference extends EditTextPreference {
     }
 
     public void persistHostname(String hostname) {
-        /*Settings.Secure.putString(getContext().getContentResolver(),
-                Settings.Secure.DEVICE_HOSTNAME, hostname);*/
+        Settings.Secure.putString(getContext().getContentResolver(),
+                Settings.Secure.DEVICE_HOSTNAME, hostname);
     }
 
 }

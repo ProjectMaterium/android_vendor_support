@@ -16,9 +16,9 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abc.support">
+    package="org.eu.materium.support">
 
     <uses-sdk
-        android:minSdkVersion="29" />
+        android:minSdkVersion="31" />
 
 </manifest>

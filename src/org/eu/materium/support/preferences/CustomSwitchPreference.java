@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.abc.support.preferences;
+package org.eu.materium.support.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import androidx.preference.PreferenceCategory;
+import androidx.preference.SwitchPreference;
 
-import com.abc.support.R;
+import org.eu.materium.support.R;
 
-public class CustomPreferenceCategory extends PreferenceCategory {
+public class CustomSwitchPreference extends SwitchPreference {
 
-    public CustomPreferenceCategory(Context context) {
+    public CustomSwitchPreference(Context context) {
         super(context);
-        setLayoutResource(R.layout.preference_category_material_settings);
+        setLayoutResource(R.layout.preference_material_settings);
     }
 
-    public CustomPreferenceCategory(Context context, AttributeSet attrs) {
+    public CustomSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setLayoutResource(R.layout.preference_category_material_settings);
+        setLayoutResource(R.layout.preference_material_settings);
     }
 }

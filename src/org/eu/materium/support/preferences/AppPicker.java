@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.abc.support.preferences;
+package org.eu.materium.support.preferences;
 
 import android.app.ListActivity;
 import android.content.Context;
@@ -38,7 +38,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import com.abc.support.R;
+import org.eu.materium.support.R;
 
 public class AppPicker extends ListActivity {
 

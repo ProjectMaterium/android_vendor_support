@@ -15,6 +15,6 @@ android_library {
         "androidx.recyclerview_recyclerview",
     ],
 
-    resource_dirs: ["res"],
+    resource_dirs: ["res", "res-mat"],
 
 }

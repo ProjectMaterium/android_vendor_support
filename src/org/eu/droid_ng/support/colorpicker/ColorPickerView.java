@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.colorpicker;
+package org.eu.droid_ng.support.colorpicker;
 
 import android.content.Context;
 import android.graphics.Canvas;

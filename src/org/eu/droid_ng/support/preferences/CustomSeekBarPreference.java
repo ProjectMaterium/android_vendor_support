@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.eu.materium.support.preferences;
+package org.eu.droid_ng.support.preferences;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -33,7 +33,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.preference.*;
 
-import org.eu.materium.support.R;
+import org.eu.droid_ng.support.R;
 
 public class CustomSeekBarPreference extends Preference implements SeekBar.OnSeekBarChangeListener {
     private final String TAG = getClass().getName();

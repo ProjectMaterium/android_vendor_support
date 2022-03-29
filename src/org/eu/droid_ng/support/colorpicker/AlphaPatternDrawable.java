@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.colorpicker;
+package org.eu.droid_ng.support.colorpicker;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;

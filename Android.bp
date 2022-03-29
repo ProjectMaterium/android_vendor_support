@@ -6,7 +6,7 @@ android_library {
         enabled: false,
     },
 
-    srcs: ["src/org/eu/materium/support/preferences/*.java"],
+    srcs: ["src/org/eu/droid_ng/support/preferences/*.java"],
 
     static_libs: [
         "androidx.core_core",
@@ -15,6 +15,6 @@ android_library {
         "androidx.recyclerview_recyclerview",
     ],
 
-    resource_dirs: ["res", "res-mat"],
+    resource_dirs: ["res", "res-ng"],
 
 }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.preferences;
+package org.eu.droid_ng.support.preferences;
 
 import android.content.Context;
 import android.content.Intent;
@@ -37,7 +37,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
 
-import org.eu.materium.support.R;
+import org.eu.droid_ng.support.R;
 
 public class PackageListAdapter extends BaseAdapter implements Runnable {
     private PackageManager mPm;

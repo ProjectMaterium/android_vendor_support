@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.colorpicker;
+package org.eu.droid_ng.support.colorpicker;
 
 import android.app.AlertDialog;
 import android.app.NotificationManager;
@@ -30,7 +30,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import org.eu.materium.support.R;
+import org.eu.droid_ng.support.R;
 
 public class ColorPickerDialog extends AlertDialog implements ColorPickerView.OnColorChangedListener, View.OnClickListener {
 

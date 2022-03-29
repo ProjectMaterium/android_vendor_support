@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.preferences;
+package org.eu.droid_ng.support.preferences;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -42,7 +42,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.eu.materium.support.R;
+import org.eu.droid_ng.support.R;
 
 public class IconPackPreference extends Preference {
 

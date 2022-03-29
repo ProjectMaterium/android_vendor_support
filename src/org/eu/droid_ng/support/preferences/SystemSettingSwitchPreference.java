@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.preferences;
+package org.eu.droid_ng.support.preferences;
 
 import android.content.Context;
 import androidx.preference.SwitchPreference;

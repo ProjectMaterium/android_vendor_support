@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package org.eu.materium.support.colorpicker;
+package org.eu.droid_ng.support.colorpicker;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -44,7 +44,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.eu.materium.support.R;
+import org.eu.droid_ng.support.R;
 
 /**
  * A preference type that allows a user to choose a time
